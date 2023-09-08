@@ -1,0 +1,74 @@
+body {
+background-image: url("../images/OIP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.nav {
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 20px;
+}
+.selection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.PC, .CONSOLE{
+    position: relative;
+}
+.pc{
+    background-image: url("../images/pc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 25%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.console{
+    background-image: url("../images/cons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 600px;
+    border-radius: 25%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.selection .pc:hover, .console:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.selection-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #dd9bf0;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgba(45, 55, 72, 0.63);
+}
